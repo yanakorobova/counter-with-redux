@@ -1,0 +1,28 @@
+.div {
+    border: 3px solid #47dbef;
+    border-radius: 6px;
+}
+
+.wrapper {
+    margin: auto;
+    display: grid;
+    grid-template-rows:2fr 1fr;
+    width: 450px;
+    height: 350px;
+    grid-row-gap: 20px;
+}
+
+.button_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 15px 15px 15px;
+}
+.title{
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color:#47dbef;
+}
+

@@ -1,0 +1,24 @@
+.display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 15px 0 15px;
+}
+.value {
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    color:#47dbef;
+}
+.text{
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    color:#47dbef;
+}
+
+.red{
+    color: red;
+}

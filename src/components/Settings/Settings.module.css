@@ -1,0 +1,26 @@
+.display_input{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 15px 15px 0 15px;
+}
+.input_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+}
+.input_number{
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    width: 170px;
+    height: 35px;
+    font-size: 20px;
+}
+.errorInput{
+    border: 3px solid red;
+    border-radius: 6px;
+    background: #e89292;
+}

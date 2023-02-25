@@ -1,0 +1,15 @@
+.button{
+    background: #47dbef;
+    border: 1px solid #47dbef;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    color: #2c425e;
+    padding: 0 20px;
+}
+.disabled {
+    opacity: 0.5;
+}

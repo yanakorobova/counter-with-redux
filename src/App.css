@@ -1,0 +1,16 @@
+.App {
+    background-color: #273342;
+}
+
+.counter {
+    display: flex;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+@media (max-width: 750px) {
+    .counter{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
